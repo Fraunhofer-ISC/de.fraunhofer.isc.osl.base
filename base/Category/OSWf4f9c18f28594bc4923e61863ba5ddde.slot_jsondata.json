@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSW52a4518aa6a6479885a13afc078d191e"
+    ],
+    "uuid": "f4f9c18f-2859-4bc4-923e-61863ba5ddde",
+    "label": [
+        {
+            "text": "ISC User",
+            "lang": "en"
+        },
+        {
+            "text": "ISC User",
+            "lang": "de"
+        }
+    ],
+    "name": "IscUser"
+}

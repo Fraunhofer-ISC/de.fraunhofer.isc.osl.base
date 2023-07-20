@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "/wiki/Category:OSW6c4212f1a39342be963d2b9efd19c5c2?action=raw&slot=jsonschema",
+        "/wiki/Category:OSW385b58cfdd8347cf9693526411611476?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW6c4212f1a39342be963d2b9efd19c5c2?action=raw&slot=jsonschema"
+        },
+        {
+            "$ref": "/wiki/Category:OSW385b58cfdd8347cf9693526411611476?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "0cc1cdac-0822-496f-9d9c-d7f11d8cd02b",
+    "title": "IscFloor",
+    "title*": {
+        "en": "ISC Floor"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW0cc1cdac0822496f9d9cd7f11d8cd02b"
+            ]
+        }
+    }
+}

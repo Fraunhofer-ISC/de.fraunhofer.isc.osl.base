@@ -1,0 +1,65 @@
+{
+    "@context": [
+        "/wiki/Category:OSW3d238d05316e45a4ac95a11d7b24e36b?action=raw&slot=jsonschema",
+        {
+            "pitfm_id": "Property:HasPitFmId",
+            "pitfm_modification_date": "Property:HasPitFmModificationDate",
+            "pitfm_creation_date": "Property:HasPitFmCreationDate"
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW3d238d05316e45a4ac95a11d7b24e36b?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "385b58cf-dd83-47cf-9693-526411611476",
+    "title": "IscLocation",
+    "title*": {
+        "en": "ISC Location",
+        "de": "ISC \u00d6rtlichkeit"
+    },
+    "description": "Location category to be used within Fh ISC",
+    "description*": {
+        "de": "Kategorie f\u00fcr die Verwendung innerhalb des Fh ISC"
+    },
+    "required": [
+        "type"
+    ],
+    "defaultProperties": [
+        "pitfm_id"
+    ],
+    "properties": {
+        "pitfm_id": {
+            "title": "pitFM ID",
+            "type": "string",
+            "title*": {
+                "en": "pitFM ID",
+                "de": "pitFM ID"
+            }
+        },
+        "pitfm_creation_date": {
+            "title": "pitFM creation Date",
+            "type": "string",
+            "format": "date-time",
+            "title*": {
+                "en": "pitFM creation date",
+                "de": "pitFM Erstellungsdatum"
+            }
+        },
+        "pitfm_modification_date": {
+            "title": "pitFM modification date",
+            "type": "string",
+            "format": "date-time",
+            "title*": {
+                "en": "pitFM modification date",
+                "de": "pitFM Aenderungsdatum"
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSW385b58cfdd8347cf9693526411611476"
+            ]
+        }
+    }
+}

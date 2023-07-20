@@ -1,0 +1,69 @@
+{
+    "@context": [
+        "/wiki/Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7?action=raw&slot=jsonschema",
+        {
+            "abbreviation": "Property:HasAbbreviation",
+            "username": "Property:HasUsername"
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "52a4518a-a6a6-4798-85a1-3afc078d191e",
+    "title": "FhgUser",
+    "title*": {
+        "en": "FhG User",
+        "de": "FhG User"
+    },
+    "description": "User subclass to be used within the FhG",
+    "description*": {
+        "en": "User subclass to be used within the FhG",
+        "de": "Subklasse von User f\u00fcr die Verwendung in der FhG"
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "abbreviation": {
+            "title": "Abbreviation",
+            "title*": {
+                "de": "K\u00fcrzel"
+            },
+            "description": "Fraunhofer abbreviation",
+            "description*": {
+                "de": "Fraunhofer-K\u00fcrzel"
+            },
+            "type": "string"
+        },
+        "username": {
+            "title": "Username",
+            "title*": {
+                "de": "Nutzername"
+            },
+            "description": "Fraunhofer user ID",
+            "description*": {
+                "de": "Fraunhofer-User-ID"
+            },
+            "type": "string"
+        },
+        "sap_pers_num": {
+            "title": "SAP personnel number",
+            "title*": {
+                "de": "SAP Personalnummer"
+            },
+            "description": "Fraunhofer SAP personnel number. Should contain eight digits.",
+            "description*": {
+                "de": "Fraunhofer SAP Personalnummer. Sollte acht Ziffern enthalten."
+            },
+            "type": "string"
+        },
+        "type": {
+            "default": [
+                "Category:OSW52a4518aa6a6479885a13afc078d191e"
+            ]
+        }
+    }
+}

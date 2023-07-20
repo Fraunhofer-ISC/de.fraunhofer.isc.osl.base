@@ -1,0 +1,161 @@
+{
+    "publisher": "Fraunhofer-ISC",
+    "publisherURL": "https://github.com/Fraunhofer-ISC/isc.fraunhofer.osl.base",
+    "author": [
+        "Simon Stier",
+        "Lukas Gold"
+    ],
+    "language": "en",
+    "licenseName": "CC BY-NC 4.0",
+    "packages": {
+        "OSW Base": {
+            "globalID": "isc.fraunhofer.osl.base",
+            "label": "OSW Base",
+            "description": "Extends the OpenSemanticWorld Package 'world.opensemantic.base' with concepts and pages that are specific to the Fraunhofer ISC.",
+            "version": "0.0.1",
+            "baseURL": "https://raw.githubusercontent.com/Fraunhofer-ISC/isc.fraunhofer.osl.base/main/base/",
+            "pages": [
+                {
+                    "name": "OSW52a4518aa6a6479885a13afc078d191e",
+                    "label": "FhgUser",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW52a4518aa6a6479885a13afc078d191e.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW52a4518aa6a6479885a13afc078d191e.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW52a4518aa6a6479885a13afc078d191e.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW52a4518aa6a6479885a13afc078d191e.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW52a4518aa6a6479885a13afc078d191e.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWf4f9c18f28594bc4923e61863ba5ddde",
+                    "label": "IscUser",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWf4f9c18f28594bc4923e61863ba5ddde.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWf4f9c18f28594bc4923e61863ba5ddde.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWf4f9c18f28594bc4923e61863ba5ddde.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWf4f9c18f28594bc4923e61863ba5ddde.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWf4f9c18f28594bc4923e61863ba5ddde.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW385b58cfdd8347cf9693526411611476",
+                    "label": "IscLocation",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW385b58cfdd8347cf9693526411611476.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW385b58cfdd8347cf9693526411611476.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW385b58cfdd8347cf9693526411611476.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW385b58cfdd8347cf9693526411611476.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW385b58cfdd8347cf9693526411611476.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWfafdfdadffe140ebb129d7df7675d189",
+                    "label": "IscSite",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWfafdfdadffe140ebb129d7df7675d189.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWfafdfdadffe140ebb129d7df7675d189.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWfafdfdadffe140ebb129d7df7675d189.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWfafdfdadffe140ebb129d7df7675d189.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWfafdfdadffe140ebb129d7df7675d189.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWf77099f7f36240b6a9fa421647535375",
+                    "label": "IscBuilding",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWf77099f7f36240b6a9fa421647535375.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWf77099f7f36240b6a9fa421647535375.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWf77099f7f36240b6a9fa421647535375.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWf77099f7f36240b6a9fa421647535375.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWf77099f7f36240b6a9fa421647535375.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW0cc1cdac0822496f9d9cd7f11d8cd02b",
+                    "label": "IscFloor",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW0cc1cdac0822496f9d9cd7f11d8cd02b.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW0cc1cdac0822496f9d9cd7f11d8cd02b.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW0cc1cdac0822496f9d9cd7f11d8cd02b.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW0cc1cdac0822496f9d9cd7f11d8cd02b.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW0cc1cdac0822496f9d9cd7f11d8cd02b.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW60930f31843f4602a56a5223308ae23e",
+                    "label": "IscRoom",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW60930f31843f4602a56a5223308ae23e.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW60930f31843f4602a56a5223308ae23e.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW60930f31843f4602a56a5223308ae23e.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW60930f31843f4602a56a5223308ae23e.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW60930f31843f4602a56a5223308ae23e.slot_jsonschema.json"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

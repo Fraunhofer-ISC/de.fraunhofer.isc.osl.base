@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "/wiki/Category:OSW4bcd4a99a73f482ea40ac4210dfab836?action=raw&slot=jsonschema",
+        "/wiki/Category:OSW385b58cfdd8347cf9693526411611476?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW4bcd4a99a73f482ea40ac4210dfab836?action=raw&slot=jsonschema"
+        },
+        {
+            "$ref": "/wiki/Category:OSW385b58cfdd8347cf9693526411611476?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "f77099f7-f362-40b6-a9fa-421647535375",
+    "title": "IscBuilding",
+    "title*": {
+        "en": "ISC Building"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWf77099f7f36240b6a9fa421647535375"
+            ]
+        }
+    }
+}

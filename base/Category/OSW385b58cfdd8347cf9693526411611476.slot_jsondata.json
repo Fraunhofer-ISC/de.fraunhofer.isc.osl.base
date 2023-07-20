@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSW3d238d05316e45a4ac95a11d7b24e36b"
+    ],
+    "uuid": "385b58cf-dd83-47cf-9693-526411611476",
+    "label": [
+        {
+            "text": "ISC Location",
+            "lang": "en"
+        },
+        {
+            "text": "ISC \u00d6rtlichkeit",
+            "lang": "de"
+        }
+    ],
+    "name": "IscLocation"
+}

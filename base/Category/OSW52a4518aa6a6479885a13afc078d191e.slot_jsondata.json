@@ -1,0 +1,41 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7"
+    ],
+    "uuid": "52a4518a-a6a6-4798-85a1-3afc078d191e",
+    "label": [
+        {
+            "text": "FhG User",
+            "lang": "en"
+        },
+        {
+            "text": "FhG User",
+            "lang": "de"
+        }
+    ],
+    "name": "FhgUser",
+    "short_name": [
+        {
+            "text": "FhG User",
+            "lang": "en"
+        },
+        {
+            "text": "FhG User",
+            "lang": "de"
+        }
+    ],
+    "query_label": "",
+    "description": [
+        {
+            "text": "User subclass to be used within the FhG",
+            "lang": "en"
+        },
+        {
+            "text": "Subklasse von User f\u00fcr die Verwendung in der FhG",
+            "lang": "de"
+        }
+    ]
+}

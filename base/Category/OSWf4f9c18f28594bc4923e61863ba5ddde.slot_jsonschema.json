@@ -1,0 +1,42 @@
+{
+    "@context": [
+        "/wiki/Category:OSW52a4518aa6a6479885a13afc078d191e?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW52a4518aa6a6479885a13afc078d191e?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "f4f9c18f-2859-4bc4-923e-61863ba5ddde",
+    "title": "IscUser",
+    "title*": {
+        "en": "ISC User",
+        "de": "ISC User"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "employee_id": {
+            "type": "string",
+            "title": "Employee ID",
+            "title*": {
+                "en": "Employee ID",
+                "de": "Employee ID"
+            },
+            "description": "ID of the employee, used as a reference in pitFM and Active Directory. Should contain digits only.",
+            "description*": {
+                "en": "ID of the employee, used as a reference in pitFM and Active Directory. Should contain digits only.",
+                "de": "Mitarbeiter-ID, die als Referenz in pitFM und Active Directory verwendet wird. Sollte nur Ziffern enthalten."
+            }
+        },
+        "type": {
+            "default": [
+                "Category:OSWf4f9c18f28594bc4923e61863ba5ddde"
+            ]
+        }
+    }
+}
