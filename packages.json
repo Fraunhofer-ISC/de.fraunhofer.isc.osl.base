@@ -1,6 +1,6 @@
 {
     "publisher": "Fraunhofer-ISC",
-    "publisherURL": "https://github.com/Fraunhofer-ISC/isc.fraunhofer.osl.base",
+    "publisherURL": "https://github.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.base",
     "author": [
         "Simon Stier",
         "Lukas Gold"
@@ -9,11 +9,11 @@
     "licenseName": "CC BY-NC 4.0",
     "packages": {
         "OSW Base": {
-            "globalID": "isc.fraunhofer.osl.base",
+            "globalID": "de.fraunhofer.isc.osl.base",
             "label": "OSW Base",
             "description": "Extends the OpenSemanticWorld Package 'world.opensemantic.base' with concepts and pages that are specific to the Fraunhofer ISC.",
             "version": "0.0.1",
-            "baseURL": "https://raw.githubusercontent.com/Fraunhofer-ISC/isc.fraunhofer.osl.base/main/base/",
+            "baseURL": "https://raw.githubusercontent.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.base/main/base/",
             "pages": [
                 {
                     "name": "OSW52a4518aa6a6479885a13afc078d191e",
