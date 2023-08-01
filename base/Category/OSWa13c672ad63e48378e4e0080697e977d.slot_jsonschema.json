@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "/wiki/Category:OSWb8b6278763d54b0784eea9d3b3d183a4?action=raw&slot=jsonschema",
+        "/wiki/Category:OSWa2b790323e94405caf35d87cbca7502d?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWb8b6278763d54b0784eea9d3b3d183a4?action=raw&slot=jsonschema"
+        },
+        {
+            "$ref": "/wiki/Category:OSWa2b790323e94405caf35d87cbca7502d?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "a13c672a-d63e-4837-8e4e-0080697e977d",
+    "title": "FhgGroup",
+    "title*": {
+        "en": "FhG group",
+        "de": "FhG Gruppe"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSWa13c672ad63e48378e4e0080697e977d"
+            ]
+        }
+    }
+}

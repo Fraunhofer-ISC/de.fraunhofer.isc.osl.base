@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "/wiki/Category:OSW94aa074255374580b70337340c5ccc1b?action=raw&slot=jsonschema",
+        "/wiki/Category:OSWa2b790323e94405caf35d87cbca7502d?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW94aa074255374580b70337340c5ccc1b?action=raw&slot=jsonschema"
+        },
+        {
+            "$ref": "/wiki/Category:OSWa2b790323e94405caf35d87cbca7502d?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "31de2378-7490-41e7-b344-3cc5afb3d0fe",
+    "title": "FhgDepartment",
+    "title*": {
+        "en": "FhG department",
+        "de": "FhG Abteilung"
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW31de2378749041e7b3443cc5afb3d0fe"
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSW5427361692374c8eaa6bd3733b92d343"
+    ],
+    "uuid": "25aad9e7-9851-40c6-bbda-075833d93425",
+    "label": [
+        {
+            "text": "Fraunhofer Institute",
+            "lang": "en"
+        },
+        {
+            "text": "Fraunhofer-Institut ",
+            "lang": "de"
+        }
+    ],
+    "name": "FraunhoferInstitute"
+}

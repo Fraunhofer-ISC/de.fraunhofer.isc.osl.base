@@ -12,7 +12,7 @@
             "globalID": "de.fraunhofer.isc.osl.base",
             "label": "ISC Base",
             "description": "Extends the OpenSemanticWorld Package 'world.opensemantic.base' with concepts and pages that are specific to the Fraunhofer ISC.",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "baseURL": "https://raw.githubusercontent.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.base/main/base/",
             "pages": [
                 {
@@ -152,6 +152,66 @@
                         },
                         "jsonschema": {
                             "urlPath": "Category/OSW60930f31843f4602a56a5223308ae23e.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWa13c672ad63e48378e4e0080697e977d",
+                    "label": "FhgGroup",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSWa13c672ad63e48378e4e0080697e977d.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSWa13c672ad63e48378e4e0080697e977d.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSWa13c672ad63e48378e4e0080697e977d.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSWa13c672ad63e48378e4e0080697e977d.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSWa13c672ad63e48378e4e0080697e977d.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW31de2378749041e7b3443cc5afb3d0fe",
+                    "label": "FhgDepartment",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW31de2378749041e7b3443cc5afb3d0fe.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW31de2378749041e7b3443cc5afb3d0fe.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW31de2378749041e7b3443cc5afb3d0fe.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW31de2378749041e7b3443cc5afb3d0fe.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW31de2378749041e7b3443cc5afb3d0fe.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW25aad9e7985140c6bbda075833d93425",
+                    "label": "FraunhoferInstitute",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW25aad9e7985140c6bbda075833d93425.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW25aad9e7985140c6bbda075833d93425.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW25aad9e7985140c6bbda075833d93425.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW25aad9e7985140c6bbda075833d93425.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW25aad9e7985140c6bbda075833d93425.slot_jsonschema.json"
                         }
                     }
                 }

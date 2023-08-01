@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSWb8b6278763d54b0784eea9d3b3d183a4"
+    ],
+    "uuid": "a13c672a-d63e-4837-8e4e-0080697e977d",
+    "label": [
+        {
+            "text": "FhG group",
+            "lang": "en"
+        },
+        {
+            "text": "FhG Gruppe",
+            "lang": "de"
+        }
+    ],
+    "name": "FhgGroup"
+}

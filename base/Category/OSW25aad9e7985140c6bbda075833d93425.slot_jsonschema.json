@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "/wiki/Category:OSW5427361692374c8eaa6bd3733b92d343?action=raw&slot=jsonschema",
+        "/wiki/Category:OSWa2b790323e94405caf35d87cbca7502d?action=raw&slot=jsonschema"
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSW5427361692374c8eaa6bd3733b92d343?action=raw&slot=jsonschema"
+        },
+        {
+            "$ref": "/wiki/Category:OSWa2b790323e94405caf35d87cbca7502d?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "25aad9e7-9851-40c6-bbda-075833d93425",
+    "title": "FraunhoferInstitute",
+    "title*": {
+        "en": "Fraunhofer Institute",
+        "de": "Fraunhofer-Institut "
+    },
+    "description": "",
+    "description*": {},
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW25aad9e7985140c6bbda075833d93425"
+            ]
+        }
+    }
+}

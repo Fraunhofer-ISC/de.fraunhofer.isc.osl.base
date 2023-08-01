@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSW94aa074255374580b70337340c5ccc1b"
+    ],
+    "uuid": "31de2378-7490-41e7-b344-3cc5afb3d0fe",
+    "name": "FhgDepartment",
+    "label": [
+        {
+            "text": "FhG department",
+            "lang": "en"
+        },
+        {
+            "text": "FhG Abteilung",
+            "lang": "de"
+        }
+    ]
+}
