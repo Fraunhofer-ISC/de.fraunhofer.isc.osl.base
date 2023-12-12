@@ -1,0 +1,20 @@
+{
+    "type": [
+        "Category:Category"
+    ],
+    "subclass_of": [
+        "Category:OSWfe3e842b804445c7bb0dd8ee61da2d70"
+    ],
+    "uuid": "a2b79032-3e94-405c-af35-d87cbca7502d",
+    "label": [
+        {
+            "text": "FhG organizational sub-unit",
+            "lang": "en"
+        },
+        {
+            "text": "FhG Organisationsuntereinheit",
+            "lang": "de"
+        }
+    ],
+    "name": "FhgOrganizationalSubUnit"
+}
