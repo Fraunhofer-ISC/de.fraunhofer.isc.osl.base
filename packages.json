@@ -12,7 +12,7 @@
             "globalID": "de.fraunhofer.isc.osl.base",
             "label": "ISC Base",
             "description": "Extends the OpenSemanticWorld Package 'world.opensemantic.base' with concepts and pages that are specific to the Fraunhofer ISC.",
-            "version": "0.1.0",
+            "version": "0.2.0",
             "baseURL": "https://raw.githubusercontent.com/Fraunhofer-ISC/de.fraunhofer.isc.osl.base/main/base/",
             "pages": [
                 {
