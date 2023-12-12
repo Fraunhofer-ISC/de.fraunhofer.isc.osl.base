@@ -2,8 +2,12 @@
     "@context": [
         "/wiki/Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7?action=raw&slot=jsonschema",
         {
-            "abbreviation": "Property:HasAbbreviation",
-            "username": "Property:HasUsername"
+            "abbreviation": {
+                "@id": "Property:HasAbbreviation"
+            },
+            "username": {
+                "@id": "Property:HasUsername"
+            }
         }
     ],
     "allOf": [

@@ -1,0 +1,7 @@
+{{#ask: [[{{FULLPAGENAME}}]]
+|?HasOu={{#switch: {{USERLANGUAGECODE}} |en=OU |de=OE |#default=OU}}
+|?HasRoom={{#switch: {{USERLANGUAGECODE}} |en=Room |de=Raum |#default=Room}}
+|?HasPhoneNumber={{#switch: {{USERLANGUAGECODE}} |en=Phone |de=Telefon |#default=Phone}}
+|format=datatable
+|limit=1000
+}}

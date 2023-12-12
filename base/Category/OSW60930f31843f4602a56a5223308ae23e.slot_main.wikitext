@@ -1,0 +1,6 @@
+{{#ask: [[{{FULLPAGENAME}}]]
+|?HasRoomUsage={{#switch: {{USERLANGUAGECODE}} |en=Function |de=Funktion |#default=Function }}
+|?IsLocatedIn={{#switch: {{USERLANGUAGECODE}} |en=Building |de=Gebäude |#default=Building }}
+|format=datatable
+|limit=1000
+}}
