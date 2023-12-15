@@ -1,0 +1,33 @@
+{
+    "subclass_of": [
+        "Category:OSWb2d7e6a2eff94c82b7f1f2699d5b0ee3"
+    ],
+    "type": [
+        "Category:Category"
+    ],
+    "uuid": "5105e9b2-ec05-4d3a-8411-fff5e6d3fd5a",
+    "label": [
+        {
+            "text": "FhG Projekt",
+            "lang": "de"
+        },
+        {
+            "text": "FhG Project",
+            "lang": "en"
+        }
+    ],
+    "description": [
+        {
+            "text": "Von einem oderer mehreren Fraunhofer Insitituten durchgef\u00fchrtes Projekt.",
+            "lang": "de"
+        },
+        {
+            "text": "Project carried out by a single or multiple Fraunhofer institutes.",
+            "lang": "en"
+        }
+    ],
+    "name": "FhgProjekt",
+    "utf8_icon": [
+        "\ud83d\udcb0"
+    ]
+}

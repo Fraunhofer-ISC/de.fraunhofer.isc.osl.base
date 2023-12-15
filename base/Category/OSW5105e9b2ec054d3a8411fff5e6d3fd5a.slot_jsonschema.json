@@ -1,0 +1,153 @@
+{
+    "@context": [
+        "/wiki/Category:OSWb2d7e6a2eff94c82b7f1f2699d5b0ee3?action=raw&slot=jsonschema",
+        {
+            "cost_accountings": {
+                "@id": "Property:HasCostAccounting"
+            },
+            "id": "Property:HasId"
+        }
+    ],
+    "allOf": [
+        {
+            "$ref": "/wiki/Category:OSWb2d7e6a2eff94c82b7f1f2699d5b0ee3?action=raw&slot=jsonschema"
+        }
+    ],
+    "type": "object",
+    "uuid": "5105e9b2-ec05-4d3a-8411-fff5e6d3fd5a",
+    "title": "FhgProjekt",
+    "title*": {
+        "de": "FhG Projekt",
+        "en": "FhG Project"
+    },
+    "description": "Von einem oderer mehreren Fraunhofer Insitituten durchgef\u00fchrtes Projekt.",
+    "description*": {
+        "de": "Von einem oderer mehreren Fraunhofer Insitituten durchgef\u00fchrtes Project.",
+        "en": "Project carried out by a single or multiple Fraunhofer institutes."
+    },
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "default": [
+                "Category:OSW5105e9b2ec054d3a8411fff5e6d3fd5a"
+            ]
+        },
+        "cost_accountings": {
+            "title": "SAP PSP Elements",
+            "title*": {
+                "de": "SAP PSP-Elemente"
+            },
+            "description": "SAP PSP Elements",
+            "description*": {
+                "de": "SAP PSP-Elemente"
+            },
+            "type": "array",
+            "eval_template": {
+                "type": "mustache-wikitext",
+                "mode": "render",
+                "value": "{{#cost_accountings}} {{{id}}} {{#label}} {{{text}}} ({{{lang}}}) {{/label}} {{#description}} {{=<% %>=}} {{#info: <%={{ }}=%> {{{text}}} ({{{lang}}}) {{=<% %>=}}  |note}} <%={{ }}=%> {{/description}} <br> {{/cost_accountings}}"
+            },
+            "items": {
+                "title": "SAP PSP Elements",
+                "title*": {
+                    "de": "SAP PSP-Elemente"
+                },
+                "type": "object",
+                "required": [
+                    "uuid",
+                    "id"
+                ],
+                "defaultProperties": [
+                    "label"
+                ],
+                "properties": {
+                    "uuid": {
+                        "type": "string",
+                        "format": "uuid",
+                        "options": {
+                            "hidden": true
+                        }
+                    },
+                    "id": {
+                        "title": "SAP PSP Element",
+                        "title*": {
+                            "de": "SAP PSP-Element"
+                        },
+                        "type": "string",
+                        "pattern": "^[0-9]{2}-[0-9]{5}-[0-9]{4}-[0-9]{5}$",
+                        "options": {
+                            "imask": {
+                                "returnUnmasked": false,
+                                "mask": "00-00000-0000-00000",
+                                "lazy": false
+                            }
+                        }
+                    },
+                    "label": {
+                        "type": "array",
+                        "title": "Label",
+                        "title*": {
+                            "de": "Bezeichnung"
+                        },
+                        "description": "Name of the PSP Element, contains e.g. work package or cost type",
+                        "description*": {
+                            "de": "Bezeichnung des PSP-Elements, enth\u00e4lt etwa Arbeitspaket oder Kostentype"
+                        },
+                        "format": "table",
+                        "_eval_template": [
+                            {
+                                "type": "mustache-wikitext",
+                                "mode": "render",
+                                "value": "{{=<% %>=}} {{#switch:{{USERLANGUAGECODE}} <%={{ }}=%> {{#label}} |{{lang}}={{text}} {{/label}} {{=<% %>=}} }}"
+                            }
+                        ],
+                        "items": {
+                            "title": "Label",
+                            "title*": {
+                                "de": "Bezeichnung"
+                            },
+                            "eval_template": [
+                                {
+                                    "type": "wikitext",
+                                    "mode": "store",
+                                    "value": "{{{text}}}@{{{lang}}}"
+                                }
+                            ],
+                            "$ref": "/wiki/JsonSchema:Label?action=raw"
+                        },
+                        "minItems": 1
+                    },
+                    "description": {
+                        "title": "Description",
+                        "title*": {
+                            "de": "Beschreibung"
+                        },
+                        "description": "Description of the PSP Element, e.g. which work packages or cost types are to be posted here",
+                        "description*": {
+                            "de": "Beschreibung des PSP-Elements, etwa welche Arbeitspakete oder Kostentypen hier gebucht werden sollen"
+                        },
+                        "type": "array",
+                        "format": "table",
+                        "_eval_template": {
+                            "type": "mustache-wikitext",
+                            "mode": "render",
+                            "value": "{{=<% %>=}} {{#switch:{{USERLANGUAGECODE}} <%={{ }}=%> {{#description}} |{{lang}}={{text}} {{/description}} {{=<% %>=}} }}"
+                        },
+                        "items": {
+                            "eval_template": [
+                                {
+                                    "type": "wikitext",
+                                    "mode": "store",
+                                    "value": "{{{text}}}@{{{lang}}}"
+                                }
+                            ],
+                            "$ref": "/wiki/JsonSchema:Description?action=raw"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
