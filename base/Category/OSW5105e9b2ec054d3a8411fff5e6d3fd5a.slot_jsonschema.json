@@ -28,6 +28,9 @@
     "required": [
         "type"
     ],
+    "defaultProperties": [
+        "cost_accountings"
+    ],
     "properties": {
         "type": {
             "default": [
