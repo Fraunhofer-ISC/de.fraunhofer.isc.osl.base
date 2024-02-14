@@ -11,6 +11,10 @@
         {
             "text": "ISC Site",
             "lang": "en"
+        },
+        {
+            "text": "ISC-Standort",
+            "lang": "de"
         }
     ],
     "name": "IscSite"

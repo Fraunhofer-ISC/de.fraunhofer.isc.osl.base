@@ -18,7 +18,7 @@
     ],
     "description": [
         {
-            "text": "Von einem oderer mehreren Fraunhofer Insitituten durchgef\u00fchrtes Projekt.",
+            "text": "Von einem oderer mehreren Fraunhofer Insitituten durchgeführtes Projekt.",
             "lang": "de"
         },
         {
@@ -28,6 +28,6 @@
     ],
     "name": "FhgProjekt",
     "utf8_icon": [
-        "\ud83d\udcb0"
+        "💰"
     ]
 }

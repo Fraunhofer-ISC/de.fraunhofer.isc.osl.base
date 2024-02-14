@@ -1,0 +1,13 @@
+{{#ask: [[{{FULLPAGENAME}}]]
+|?HasLabel={{#switch: {{USERLANGUAGECODE}} |de=Label (de) |#default=Label (en) }} |+lang={{USERLANGUAGECODE}} 
+|?HasOuNumber={{#switch:{{USERLANGUAGECODE}} |en=OU number|de=OE-Nummer |#default=OU number}}
+|?HasManger={{#switch:{{USERLANGUAGECODE}} |en=Manager|de=Leitung |#default=Manager}}
+|?HasDeputyManger={{#switch:{{USERLANGUAGECODE}} |en=Manager deputy|de=Leitung stv |#default=Manager deputy}}
+|?HasSecretary={{#switch:{{USERLANGUAGECODE}} |en=Secretary|de=Sekretariat |#default=Secretary}}
+|?HasSuperordinateOu={{#switch:{{USERLANGUAGECODE}} |en=Super OU|de=Über-OE |#default=Super OU}}
+|?HasNumberOfMembers={{#switch:{{USERLANGUAGECODE}} |en=Number of members|de=Mitarbeitende (Anzahl) |#default=Number of members }}
+|format=datatable
+|limit=5000
+|sort=Display title of
+|order=asc
+}}

@@ -2,9 +2,18 @@
     "@context": [
         "/wiki/Category:OSW3d238d05316e45a4ac95a11d7b24e36b?action=raw&slot=jsonschema",
         {
-            "pitfm_id": "Property:HasPitFmId",
-            "pitfm_modification_date": "Property:HasPitFmModificationDate",
-            "pitfm_creation_date": "Property:HasPitFmCreationDate"
+            "pitfm_id": {
+                "@id": "Property:HasPitFmId",
+                "@type": "xsd:string"
+            },
+            "pitfm_modification_date": {
+                "@id": "Property:HasPitFmModificationDate",
+                "@type": "xsd:dateTime"
+            },
+            "pitfm_creation_date": {
+                "@id": "Property:HasPitFmCreationDate",
+                "@type": "xsd:dateTime"
+            }
         }
     ],
     "allOf": [
@@ -17,11 +26,11 @@
     "title": "IscLocation",
     "title*": {
         "en": "ISC Location",
-        "de": "ISC \u00d6rtlichkeit"
+        "de": "ISC Örtlichkeit"
     },
     "description": "Location category to be used within Fh ISC",
     "description*": {
-        "de": "Kategorie f\u00fcr die Verwendung innerhalb des Fh ISC"
+        "de": "Kategorie für die Verwendung innerhalb des Fh ISC"
     },
     "required": [
         "type"

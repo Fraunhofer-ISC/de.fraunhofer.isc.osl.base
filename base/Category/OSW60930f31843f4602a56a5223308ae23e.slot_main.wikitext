@@ -1,6 +1,9 @@
 {{#ask: [[{{FULLPAGENAME}}]]
 |?HasRoomUsage={{#switch: {{USERLANGUAGECODE}} |en=Function |de=Funktion |#default=Function }}
 |?IsLocatedIn={{#switch: {{USERLANGUAGECODE}} |en=Building |de=Gebäude |#default=Building }}
+|?HasNumberOfOccupants={{#switch: {{USERLANGUAGECODE}} |en=Number of Occupants |de=Belegung (Anzahl) |#default=Number of Occupants }}
 |format=datatable
-|limit=1000
+|limit=5000
+|sort=Display title of
+|order=asc
 }}

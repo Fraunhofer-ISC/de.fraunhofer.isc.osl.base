@@ -15,10 +15,13 @@
     "uuid": "fafdfdad-ffe1-40eb-b129-d7df7675d189",
     "title": "IscSite",
     "title*": {
-        "en": "ISC Site"
+        "en": "ISC Site",
+        "de": "ISC-Standort"
     },
-    "description": "",
-    "description*": {},
+    "description": "Site of an organizational unit, e.g., the NYC branch",
+    "description*": {
+        "de": "Standort einer Organisationseinheit, z. B. der Niederlassung in NYC"
+    },
     "required": [
         "type"
     ],

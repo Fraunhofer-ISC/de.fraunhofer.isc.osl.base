@@ -1,0 +1,9 @@
+{{#ask: [[{{FULLPAGENAME}}]]
+|?IsLocatedIn={{#switch: {{USERLANGUAGECODE}} |en=Located in |de=Lage |#default=Located in }}
+|?HasNumberOfRooms={{#switch: {{USERLANGUAGECODE}} |en=Number of rooms |de=Räume (Anzahl) |#default=Number of rooms }}
+|?HasNumberOfOccupants={{#switch: {{USERLANGUAGECODE}} |en=Number of occupants |de=Belegung (Anzahl) |#default=Number of occupants }}
+|format=datatable
+|limit=5000
+|sort=Display title of
+|order=asc
+}}

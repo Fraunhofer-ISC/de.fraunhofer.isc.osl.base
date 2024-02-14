@@ -33,7 +33,7 @@
             },
             "description": "SAP organizational unit number.",
             "description*": {
-                "de": "SAP-Nummer f\u00fcr die Organisationseinheit."
+                "de": "SAP-Nummer für die Organisationseinheit."
             },
             "type": "string"
         },
@@ -45,7 +45,7 @@
             },
             "description": "List of former SIGMA organizational unit number",
             "description*": {
-                "de": "Liste der fr\u00fcheren SIGMA-Organisationseinheit-Nummern"
+                "de": "Liste der früheren SIGMA-Organisationseinheit-Nummern"
             },
             "type": "array",
             "format": "table",

@@ -1,14 +1,16 @@
 {
     "@context": [
-        "/wiki/Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7?action=raw&slot=jsonschema",
         {
             "abbreviation": {
-                "@id": "Property:HasAbbreviation"
+                "@id": "Property:HasAbbreviation",
+                "@type": "@id"
             },
             "username": {
-                "@id": "Property:HasUsername"
+                "@id": "Property:HasUsername",
+                "@type": "@id"
             }
-        }
+        },
+        "/wiki/Category:OSWd9aa0bca9b0040d8af6f5c091bf9eec7?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
@@ -25,7 +27,7 @@
     "description": "User subclass to be used within the FhG",
     "description*": {
         "en": "User subclass to be used within the FhG",
-        "de": "Subklasse von User f\u00fcr die Verwendung in der FhG"
+        "de": "Subklasse von User für die Verwendung in der FhG"
     },
     "required": [
         "type"
@@ -34,11 +36,11 @@
         "abbreviation": {
             "title": "Abbreviation",
             "title*": {
-                "de": "K\u00fcrzel"
+                "de": "Kürzel"
             },
             "description": "Fraunhofer abbreviation",
             "description*": {
-                "de": "Fraunhofer-K\u00fcrzel"
+                "de": "Fraunhofer-Kürzel"
             },
             "type": "string"
         },

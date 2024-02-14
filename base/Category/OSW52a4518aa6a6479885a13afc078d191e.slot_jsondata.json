@@ -27,14 +27,13 @@
             "lang": "de"
         }
     ],
-    "query_label": "",
     "description": [
         {
             "text": "User subclass to be used within the FhG",
             "lang": "en"
         },
         {
-            "text": "Subklasse von User f\u00fcr die Verwendung in der FhG",
+            "text": "Subklasse von User für die Verwendung in der FhG",
             "lang": "de"
         }
     ]

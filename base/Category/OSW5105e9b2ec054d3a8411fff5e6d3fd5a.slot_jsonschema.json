@@ -20,9 +20,9 @@
         "de": "FhG Projekt",
         "en": "FhG Project"
     },
-    "description": "Von einem oderer mehreren Fraunhofer Insitituten durchgef\u00fchrtes Projekt.",
+    "description": "Von einem oderer mehreren Fraunhofer Insitituten durchgeführtes Projekt.",
     "description*": {
-        "de": "Von einem oderer mehreren Fraunhofer Insitituten durchgef\u00fchrtes Project.",
+        "de": "Von einem oderer mehreren Fraunhofer Insitituten durchgeführtes Project.",
         "en": "Project carried out by a single or multiple Fraunhofer institutes."
     },
     "required": [
@@ -96,7 +96,7 @@
                         },
                         "description": "Name of the PSP Element, contains e.g. work package or cost type",
                         "description*": {
-                            "de": "Bezeichnung des PSP-Elements, enth\u00e4lt etwa Arbeitspaket oder Kostentype"
+                            "de": "Bezeichnung des PSP-Elements, enthält etwa Arbeitspaket oder Kostentype"
                         },
                         "format": "table",
                         "_eval_template": [

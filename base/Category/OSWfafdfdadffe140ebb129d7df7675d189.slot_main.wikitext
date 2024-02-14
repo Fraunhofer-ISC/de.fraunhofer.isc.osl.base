@@ -1,0 +1,10 @@
+{{#ask: [[{{FULLPAGENAME}}]]
+|?HasName={{#switch: {{USERLANGUAGECODE}} |en=Name |de=Name |#default=Name }}
+|?HasGpsCoordinates={{#switch: {{USERLANGUAGECODE}} |en=GPS coordinates |de=GPS-Koordinaten |#default=GPS coordinates }}
+|?HasNumberOfBuildings={{#switch: {{USERLANGUAGECODE}} |en=Number of buildings |de=Gebäude (Anzahl) |#default=Number of buildings }}
+|?HasNumberOfOccupants={{#switch: {{USERLANGUAGECODE}} |en=Number of Occupants |de=Belegung (Anzahl) |#default=Number of Occupants }}
+|format=datatable
+|limit=5000
+|sort=Display title of
+|order=asc
+}}

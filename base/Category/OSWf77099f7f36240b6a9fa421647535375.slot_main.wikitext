@@ -1,0 +1,10 @@
+{{#ask: [[{{FULLPAGENAME}}]]
+|?IsLocatedIn={{#switch: {{USERLANGUAGECODE}} |en=Site |de=Standort |#default=Site }}
+|?HasNumberOfFloors={{#switch: {{USERLANGUAGECODE}} |en=Number of floors |de=Stockwerke (Anzahl) |#default=Number of floors }}
+|?HasNumberOfRooms={{#switch: {{USERLANGUAGECODE}} |en=Number of rooms |de=Räume (Anzahl) |#default=Number of rooms }}
+|?HasNumberOfOccupants={{#switch: {{USERLANGUAGECODE}} |en=Number of Occupants |de=Belegung (Anzahl) |#default=Number of Occupants }}
+|format=datatable
+|limit=5000
+|sort=Display title of
+|order=asc
+}}

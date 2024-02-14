@@ -1,11 +1,12 @@
 {
     "@context": [
-        "/wiki/Category:OSW52a4518aa6a6479885a13afc078d191e?action=raw&slot=jsonschema",
         {
             "employee_id": {
-                "@id": "Property:HasEmployeeId"
+                "@id": "Property:HasEmployeeId",
+                "@type": "xsd:string"
             }
-        }
+        },
+        "/wiki/Category:OSW52a4518aa6a6479885a13afc078d191e?action=raw&slot=jsonschema"
     ],
     "allOf": [
         {
