@@ -12,7 +12,7 @@
             "globalID": "de.fraunhofer.isc.osl.base",
             "label": "ISC Base",
             "description": "Extends the OpenSemanticWorld Package 'world.opensemantic.base' with concepts and pages that are specific to the Fraunhofer ISC.",
-            "version": "0.4.1",
+            "version": "0.5.0",
             "requiredPackages": [
                 "world.opensemantic.base"
             ],
@@ -255,6 +255,77 @@
                         },
                         "jsonschema": {
                             "urlPath": "Category/OSW5105e9b2ec054d3a8411fff5e6d3fd5a.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW781ad17c7eef4161ade5a7b690aca6b5",
+                    "label": "EmploymentStatus",
+                    "namespace": "NS_CATEGORY",
+                    "urlPath": "Category/OSW781ad17c7eef4161ade5a7b690aca6b5.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Category/OSW781ad17c7eef4161ade5a7b690aca6b5.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Category/OSW781ad17c7eef4161ade5a7b690aca6b5.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Category/OSW781ad17c7eef4161ade5a7b690aca6b5.slot_jsondata.json"
+                        },
+                        "jsonschema": {
+                            "urlPath": "Category/OSW781ad17c7eef4161ade5a7b690aca6b5.slot_jsonschema.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSW62770459451644f3841c502df8a5cb1d",
+                    "label": "Active",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSW62770459451644f3841c502df8a5cb1d.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSW62770459451644f3841c502df8a5cb1d.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSW62770459451644f3841c502df8a5cb1d.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSW62770459451644f3841c502df8a5cb1d.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWacf5f4db53264d29ae8744d03796be0b",
+                    "label": "Inactive",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWacf5f4db53264d29ae8744d03796be0b.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWacf5f4db53264d29ae8744d03796be0b.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWacf5f4db53264d29ae8744d03796be0b.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWacf5f4db53264d29ae8744d03796be0b.slot_jsondata.json"
+                        }
+                    }
+                },
+                {
+                    "name": "OSWa09571ab688e4395aa1a845234e3093b",
+                    "label": "Unknown",
+                    "namespace": "NS_ITEM",
+                    "urlPath": "Item/OSWa09571ab688e4395aa1a845234e3093b.slot_main.wikitext",
+                    "slots": {
+                        "footer": {
+                            "urlPath": "Item/OSWa09571ab688e4395aa1a845234e3093b.slot_footer.wikitext"
+                        },
+                        "header": {
+                            "urlPath": "Item/OSWa09571ab688e4395aa1a845234e3093b.slot_header.wikitext"
+                        },
+                        "jsondata": {
+                            "urlPath": "Item/OSWa09571ab688e4395aa1a845234e3093b.slot_jsondata.json"
                         }
                     }
                 }
